@@ -1,0 +1,45 @@
+* {
+    font-family: 'Comme', sans-serif !important;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.text-body-emphasis {
+    font-size: 50px;
+}
+
+.span-header {
+    color: red;
+    text-transform: uppercase;
+}
+
+.nav-pills .nav-link {
+    border-radius: 5rem !important;
+}
+
+#profile-pic {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.gradient-rim {
+    background: linear-gradient(300deg, #135970, #1d00887a, #2e0099);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+  }
+
+#rim-over-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-p {
+    color: red;
+}
+
+.feature-col {
+    text-align: left;
+}
