@@ -1,6 +1,7 @@
 * {
     font-family: 'Comme', sans-serif !important;
     font-family: 'Libre Baskerville', serif;
+    text-align: center;
 }
 
 .text-body-emphasis {
@@ -42,4 +43,18 @@
 
 .feature-col {
     text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+   .profile-rim {
+    display: none;   
+    }
+
+    
+
+
 }
