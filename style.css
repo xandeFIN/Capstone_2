@@ -41,8 +41,8 @@
     color: red;
 }
 
-.feature-col {
-    text-align: left;
+.feature-col1 {
+    border-right: 1px solid grey;
 }
 
 h2 {
@@ -53,8 +53,11 @@ h2 {
    .profile-rim {
     display: none;   
     }
+}
 
-    
+@media (max-width: 991px) {
 
-
+    .feature-col1 {
+    border: none;
+    }
 }
